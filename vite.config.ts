@@ -9,5 +9,8 @@ let faviconURL = '/favicon.svg'
 export default defineConfig({
   plugins: [
     react(),
-  ]
+  ],
+  build: {
+    outDir: './public'
+  },
 })

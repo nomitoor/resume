@@ -3,7 +3,7 @@ import Header from './Components/Header'
 function App() {
   return (
     <div className="App">
-      <Header fullName='Nauman Toor' tagLine="I'm a passionate web developer from New York"/>
+      <Header fullName="Nauman Toor" tagLine="Testing" />
       
       {/* About me component */}
       <section id="about" className="about">
@@ -105,21 +105,21 @@ function App() {
             <div className="progress">
               <span className="skill">HTML <i className="val">100%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill">CSS <i className="val">90%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill">JavaScript <i className="val">75%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
@@ -130,21 +130,21 @@ function App() {
             <div className="progress">
               <span className="skill">PHP <i className="val">80%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill">WordPress/CMS <i className="val">90%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
             <div className="progress">
               <span className="skill">Photoshop <i className="val">55%</i></span>
               <div className="progress-bar-wrap">
-                <div className="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar"></div>
               </div>
             </div>
 
@@ -590,7 +590,7 @@ function App() {
               <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
             </div>
             <div className="form-group mt-3">
-              <textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea className="form-control" name="message" placeholder="Message" required></textarea>
             </div>
             <div className="my-3">
               <div className="loading">Loading</div>
