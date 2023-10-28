@@ -1,5 +1,5 @@
 import Layout from '../layout';
-import Navigation from '../layout/components/navigation';
+import Navigation from "../layout/components/Navigation";
 import SocialIcons from './components/SocialIcons';
 
 const Home = () => {
