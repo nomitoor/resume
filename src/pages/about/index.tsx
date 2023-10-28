@@ -1,5 +1,5 @@
 import Layout from "../layout";
-import Navigation from "../layout/components/navigation";
+import Navigation from "../layout/components/Navigation";
 import AboutMeContainer from "./components/about-me-container";
 
 const About = () => {
